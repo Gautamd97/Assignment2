@@ -6,10 +6,27 @@ if [ "$UID" -ne 0 ]; then
   exit 1
 fi
 
-./install_packages.sh
+while getopts "icb" opt; do
+  case $opt in 
+    i)
+      bash install_packages.sh
+      echo"Installed packages"
+    ;;
 
-./sym_link.sh
+    c)
+      bash sym_link.sh
+      echo"Created Symbolic Links"
+    ;;
 
-echo "Setup is complete"
+    b)
+      ./install_packages.sh
+      ./sym_link.sh
+      echo"Setup is complete"
+    ;;
 
-
+    *)
+      echo "Invalid option"
+      exit 1
+    ;;
+  esac
+done
