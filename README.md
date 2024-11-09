@@ -42,3 +42,13 @@ If either argument is missing, it will show an error.
 
 ## Conclusion
 These scripts provide an efficient way to automate system setup and user creation on Linux systems. The System Setup Script installs the necessary packages to ensure a consistent development environment. The User Creation Script simplifies the process of creating users. These scripts help save time, reduce errors and help maintain a standard configuration across the system.
+
+## References
+
+CBT Nuggets. (n.d.). Linux file permissions: UID vs. GID. Retrieved November 8, 2024, from https://www.cbtnuggets.com/blog/technology/system-admin/linux-file-permission-uid-vs-gid
+
+GitLab. (n.d.). CIT 2420 notes for Fall 2024. Retrieved November 8, 2024, from https://gitlab.com/cit2420/2420-notes-f24
+
+Ask Ubuntu. (n.d.). How do I grant sudo privileges to an existing user? Retrieved November 8, 2024, from https://askubuntu.com/questions/168280/how-do-i-grant-sudo-privileges-to-an-existing-user
+
+Pluralsight. (n.d.). How to add a user in Linux (adduser command). Retrieved November 8, 2024, from https://www.pluralsight.com/resources/blog/software-development/linux-add-user-command
