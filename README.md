@@ -32,8 +32,9 @@ sudo ./new_user.sh -u <username> -p <password>
 ```
 
 ### Arguments
--u: The username of the new user
--p: The password for the new user
+- -u: The username of the new user
+
+- -p: The password for the new user
 
 If either argument is missing, it will show an error.
 
